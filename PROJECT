@@ -1,0 +1,10 @@
+domain: 42nerds.com
+repo: github.com/42nerds/qapla-base
+resources:
+- group: qapla
+  kind: Application
+  version: v1alpha1
+- group: qapla
+  kind: View
+  version: v1alpha1
+version: "2"

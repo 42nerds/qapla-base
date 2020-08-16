@@ -1,0 +1,19 @@
+apiVersion: qapla.42nerds.com/v1alpha1
+kind: View
+metadata:
+  name: view-sample
+spec:
+  title: Sample View
+  buttons:
+  # href: ./ refers to the application root
+    - text: Create
+      href: ./create
+      theme: primary
+  # href: / refers to the host path
+    - text: Settings
+      href: /settings/application
+      theme: primary  
+  # href: nothing refers to the current path
+    - text: Delete
+      href: delete
+      theme: primary
